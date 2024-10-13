@@ -11,7 +11,7 @@
 
 ## Demo
 
-![Project Timeline Demo](demo.png)
+![Project Timeline Demo](demo.PNG)
 
 ## Installation
 
