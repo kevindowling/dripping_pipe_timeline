@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Timeline</title>
+</head>
+<body>
+
+<project-timeline id="timeline"></project-timeline>
+
+<script type="module" src="project-timeline.js"></script>
+<script>
+  const projects = [
+    { name: 'Project A', start: '2023-01-01', end: '2023-03-31' },
+    { name: 'Project B', start: '2023-02-15', end: '2023-04-15' },
+    { name: 'Project C', start: '2023-03-01', end: '2023-05-31' },
+    // Add more projects as needed
+  ];
+
+  document.getElementById('timeline').setAttribute('projects', JSON.stringify(projects));
+</script>
+
+</body>
+</html>
